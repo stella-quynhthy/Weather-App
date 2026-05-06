@@ -1,0 +1,56 @@
+body {
+    text-align:center;
+    font-family: Montserrat, sans-serif;
+    background-color:#a9cffc;
+  }
+  
+  #textBox, #btn {
+    font-size:20px;
+    border-radius:10px;
+    box-shadow:3px 3px;
+  }
+  
+  #btn {
+    background-color:#4294f5;
+  }
+
+  #row1 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #forecast h2 {
+    text-align: center;
+  }
+
+  @media screen and (min-width: 550px) {
+    #row1 {
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+  }
+
+.box {
+  border:2px solid black;
+  border-radius: 15px;
+  width:25%;
+  box-shadow: 2px 2px;
+  background-color:#90bafc;
+}
+
+#inputBox {
+  display:flex;
+  flex-direction:column;
+  height: 60px;
+  justify-content: space-between;
+}
+
+img {
+  margin: 15px;
+  width:300px;
+  height:300px;
+  border: 2px solid black;
+  border-radius: 10px;
+}

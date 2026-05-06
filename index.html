@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <script src="./script.js" defer></script>
+    <div id="inputBox">
+      <div>
+        <input type="text" id="textBox" placeholder="City"/>
+        <button id="btn">Search</button>
+        </div>
+        <div>
+          <label for="units">Choose a unit:</label>
+          <select name="units" id="units">
+            <option value="">Please choose a unit</option>
+            <option value="m">Metric</option>
+            <option value="s">Scientific</option>
+            <option value="f">Fahrenheit</option>
+          </select>
+        </div>
+      </div>
+      <div>
+        <h2>Location</h1>
+        <p id="location">(Put loction or city here)</p>
+        <p id="time">(Put local time here)</p>
+        <p id="timezone">(Put time zone here)</p>
+      </div>
+      <div>
+        <h2>Temperature</h2>
+        <p id="temp">(Put current temperature)</p>
+        <p id="feelsLike">Feels Like:</p>
+      </div>
+      <div>
+        <h2>Precipitation</h2>
+        <p id="precip">(Put the % of precipitation)</p>
+      </div>
+      <div id="row1">
+        <div class="box" id="cloud-uv">
+          <h2>Cloud</h2>
+          <p id="cloudCover">(Cloud Cover)</p>
+          <h2>UV Index</h2>
+          <p id="uvIndex">(UV Index)</p>
+        </div>
+        <div class="box" id="wind">
+          <h2>Wind</h2>
+          <p id="windSpeed">(Wind Speed)</p>
+          <p id="windDirection">(Wind Direction)</p>
+        </div>
+        <div class="box" id="sunStuff">
+          <p id = "sunrise">Sunrise:</p>
+          <p id = "sunset">Sunset:</p>
+        </div>
+      </div>
+      <div id="icons">
+      </div>
+      <div id="image">
+          <div id="cityImg">
+
+          </div>
+      </div>
+</body>
+</html>
